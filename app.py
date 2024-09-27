@@ -9,7 +9,7 @@ from botocore.exceptions import NoCredentialsError
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
-app.config['SECRET_KEY'] = '0a59f84a8b796f260de9ef58d71cf49ac288e7fc5695afd7'  # Change this to a strong secret key
+app.config['SECRET_KEY'] = 'secrey_key'  # Change this to a strong secret key
 db = SQLAlchemy(app)
 
 class User(db.Model):
@@ -53,8 +53,8 @@ def signup():
     
 
 # AWS Configuration
-aws_access_key_id = 'AKIAXTORPF6KCPCBPR6Z'
-aws_secret_access_key = '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'
+aws_access_key_id = 'AWS_ACESS_ID'
+aws_secret_access_key = 'AWS_secret_key'
 aws_region_name = 'us-east-1'
 
 # Initialize SES client
