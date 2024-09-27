@@ -1,0 +1,7 @@
+Python3
+Flask
+Flask-SQLAlchemy
+bcrypt
+uuid
+boto3
+Amazon SES (Free Tier Account)
