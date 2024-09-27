@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="mt-5">Welcome to Your Dashboard!</h2>
+        <p>You are logged in successfully.</p>
+        <a href="{{ url_for('signup') }}" class="btn btn-primary">Sign Up</a>
+        <a href="{{ url_for('logout') }}" class="btn btn-danger">Logout</a>
+    </div>
+</body>
+</html>
