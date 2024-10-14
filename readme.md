@@ -1,5 +1,5 @@
  **Simple Flask App**
-To signup as a user, sending verify the email using AWS SES, after verfying profile gets activated.
+This is a simple flask app for registration and verifying the registered email using AWS SES. Users gets logged in only after email verification.
 
 Project file structure:
 tracxn/                                 # root folder
